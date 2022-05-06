@@ -1,58 +1,137 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T19:29:58.804Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="1s_MI9K19ipABQzVTxz_" version="18.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-06T20:27:36.543Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="q48oExCGjC7pw2JcWDY3" version="18.0.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1354" dy="226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="500" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="rfu-AUAui71PsU8ORFb6-0" value="Building Fire" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="10" y="750" width="90" height="24" as="geometry" />
+          <mxGeometry y="750" width="90" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="rfu-AUAui71PsU8ORFb6-26" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-14" target="rfu-AUAui71PsU8ORFb6-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rfu-AUAui71PsU8ORFb6-14" value="Do nothing" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="110" y="680" width="95" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="rfu-AUAui71PsU8ORFb6-15" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;" edge="1" target="rfu-AUAui71PsU8ORFb6-14" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rfu-AUAui71PsU8ORFb6-26" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-48" target="rfu-AUAui71PsU8ORFb6-25">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="90" y="750" as="sourcePoint" />
+            <mxPoint x="205.04761904761904" y="699.7142857142857" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rfu-AUAui71PsU8ORFb6-32" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-20" target="rfu-AUAui71PsU8ORFb6-31">
+        <mxCell id="rfu-AUAui71PsU8ORFb6-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-25" target="rfu-AUAui71PsU8ORFb6-37">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rfu-AUAui71PsU8ORFb6-20" value="Go in from window" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="115" y="740" width="85" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="rfu-AUAui71PsU8ORFb6-21" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;" edge="1" target="rfu-AUAui71PsU8ORFb6-20" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="760" as="sourcePoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-25" value="continue swinging and something cuts your web with a spear and you land on a roof" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="220" y="630" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="rfu-AUAui71PsU8ORFb6-34" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-28" target="rfu-AUAui71PsU8ORFb6-33">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rfu-AUAui71PsU8ORFb6-28" value="Go in from the top" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="115" y="790" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="rfu-AUAui71PsU8ORFb6-29" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;" edge="1" target="rfu-AUAui71PsU8ORFb6-28" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="85" y="770" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rfu-AUAui71PsU8ORFb6-36" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-31">
+        <mxCell id="rfu-AUAui71PsU8ORFb6-36" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-31" target="rfu-AUAui71PsU8ORFb6-37">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-31" value="You save everyone and as you escape you spot someone on a roof" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="220" y="710" width="110" height="50" as="geometry" />
+          <mxGeometry x="220" y="715" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-41" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-33" target="rfu-AUAui71PsU8ORFb6-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="759.9999999999999" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-33" value="you save most people and spot someone on a roof" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="220" y="770" width="90" height="60" as="geometry" />
+          <mxGeometry x="220" y="774" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-37" value="Kraven fight" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="380" y="735" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-48" value="Do nothing" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="690" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-49" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="rfu-AUAui71PsU8ORFb6-48" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="760" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-52" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-50" target="rfu-AUAui71PsU8ORFb6-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-50" value="Go in from window" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="116" y="750" width="84" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-51" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="rfu-AUAui71PsU8ORFb6-50" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="770" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-56" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-53" target="rfu-AUAui71PsU8ORFb6-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-53" value="Go in from top" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="116" y="805" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-54" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="rfu-AUAui71PsU8ORFb6-53" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-0">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="840" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-57" value="you get all the inputs right" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="750" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-58" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="rfu-AUAui71PsU8ORFb6-57" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="755" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-62" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-59" target="rfu-AUAui71PsU8ORFb6-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-59" value="you beat Kraven making him leave and you go through the city" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="710" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-60" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="rfu-AUAui71PsU8ORFb6-59" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="599.9999999999998" y="752.4999999999999" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-61" value="Villains on the Loose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="780" y="735" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-85" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-63" target="rfu-AUAui71PsU8ORFb6-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-63" value="you choose to fight Hydroman first" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1073.5" y="695" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-64" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" target="rfu-AUAui71PsU8ORFb6-63" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1098" y="735" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-86" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-65" target="rfu-AUAui71PsU8ORFb6-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-65" value="you choose to fight Rhino first" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1073.5" y="750" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-66" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" target="rfu-AUAui71PsU8ORFb6-65" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1120" y="830" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-87" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-67" target="rfu-AUAui71PsU8ORFb6-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-67" value="you choose to fight Sandman first" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1080" y="795" width="113" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-68" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" target="rfu-AUAui71PsU8ORFb6-67" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="900" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-69" value="you have to choose who to go after first between 7 villains" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="920" y="745" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-70" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="rfu-AUAui71PsU8ORFb6-69" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="774" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rfu-AUAui71PsU8ORFb6-83" value="You get all of the inputs right" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1260" y="750" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
