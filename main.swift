@@ -409,58 +409,246 @@ func venomFirst() -> State {
 }
 
 func kravenSecond() -> State {
+    print("You are about to meet the villain\n")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt: "Press something\n", allowedCharacters: ["s", "w"])
+        switch key {
+        case "s":
+            print("Something.\n")
+        case "w":
+            print("Something.\n")
+        default:
+            print("Something.\n")
+        }
+    }while key == "s"
     return.death
 }
 
 func kravenFirst() -> State {
+    print("You are about to meet the vilain\n")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt: "Press something\n", allowedCharacters: ["s", "w"])
+        switch key {
+        case "s":
+            print("Something.\n")
+        case "w":
+            print("Something.\n")
+
+        default:
+            print("Something.\n")
+        }
+    }while key == "s"
     return.death
 }
 
 func venomSecond() -> State {
+    print("You are about to meet the villain\n")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt:"Press something\n", allowedCharacters: ["s", "w"])
+        switch key {
+        case "s":
+            print("Something.\n")
+        case "w":
+            print("Something.\n")
+
+        default:
+            print("Something.\n")
+        }
+    } while key == "s"
     return.death
 }
 
 func negativeFirst() -> State {
+    print("You are about to mee the villain\n")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt:"Press something\n", allowedCharacters:["s", "w"])
+        switch key {
+        case "s":
+            print("Something.\n")
+        case "w":
+            print("Something.\n")
+
+        default:
+            print("Something.\n")
+        }
+    }while key == "s"
     return.death
 }
 
 func morbiusSecond() -> State {
+    print("You are about to meet the villain\n")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt:"Press something\n", allowedCharacters:["s", "w"])
+        switch key {
+        case "s":
+            print("Something.\n")
+        case "w":
+            print("Something.\n")
+
+        default:
+            print("Something.\n")
+        }
+    }while key == "s"
     return.death
 }
 
-func VGK2() -> State {
+func VGK2() -> State{
+    print("You are about to meet the villain\n")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt: "Press something\n", allowedCharacters:["s", "w"])
+        switch key {
+        case "s":
+            print("Something\n")
+        case "w":
+            print("Something.\n")
+
+        default:
+            print("Something.\n")
+        }
+    }while key == "s"
     return.death
 }
 
 func venomFirst2() -> State {
+    print("You are about to meet the villain\n")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt:"Press something\n", allowedCharacters:["s", "w"])
+        switch key {
+        case "s":
+            print("Something\n")
+        case "w":
+            print("Somethinng.\n")
+        default:
+            print("Something.\n")
+        }
+    }while key == "s"
     return.death
 }
 
 func kravenSecond2() -> State {
+    print("You are about to meet the villain\n")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt: "Press something\n", allowedCharacters:["s", "w"])
+        switch key {
+        case "s":
+            print("Something\n")
+        case "w":
+            print("Something.\n")
+        default:
+            print("Something.\n")
+        }
+    }while key == "s"
     return.death
 }
 
 func kravenFirst2() -> State {
+    print("You are about to meet the villain\n")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt: "Press something\n", allowedCharacters:["s", "w"])
+        switch key {
+        case "s":
+            print("Something\n")
+        case "w":
+            print("Something.\n")
+        default:
+            print("Something.\n")
+        }
+    }while key == "s"
     return.death
 }
 
 func venomSecond2() -> State {
+    print("You are about to meet the villain\n")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt:"Press something\n", allowedCharacters:["s", "w"])
+        switch key {
+        case "s":
+            print("Something\n")
+        case "w":
+            print("Something.\n")
+        default:
+            print("Something.\n")
+        }
+    }while key == "s"
     return.death
 }
 
 func badEnding() -> State {
+    print("You are about to meet the villain\n")
+    var key : Character
+    repeat {
+        key  = getKeyboardInput(prompt:"Press something\n", allowedCharacters:["s", "w"])
+        switch key {
+        case "s":
+            print("Something\n")
+        case "w":
+            print("Something.\n")
+        default:
+            print("Something.\n")
+        }
+    }while key == "s"
     return.death
 }
 
 func goodEnding() -> State {
+    print("You are about to meet the villain\n")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt:"Press something\n", allowedCharacters:["s", "w"])
+        switch key {
+        case"s":
+            print("Something.\n")
+        case "w":
+            print("Something.\n")
+        default:
+            print("Somethinng.\n")
+        }
+    }while key == "s"
     return.death
 }
 
 func trueEnding() -> State {
+    print("You are about to meet the villain\n")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt:"Press something.\n", allowedCharacters:["s", "w"])
+        switch key {
+        case "s":
+            print("Something.\n")
+        case "w":
+            print("Something.\n")
+        default:
+            print("Something.\n")
+        }
+    }while key == "s"
     return.death
 }
 
 func carnage() -> State {
+    print("You are about to meet the villain\n")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt:"Press something.\n", allowedCharacters:["s", "w"])
+        switch key {
+        case "s":
+            print("Something.\n")
+        case "w":
+            print("Something.\n")
+        default:
+            print("Something.\n")
+        }
+    }while key == "s"
+                  
     return.death
 }
 
