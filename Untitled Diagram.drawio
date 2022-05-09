@@ -1,309 +1,410 @@
-<mxfile host="app.diagrams.net" modified="2022-05-09T00:47:20.341Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="b5Uhkulm0StKDJ-BtZLi" version="18.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-09T00:53:38.725Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="2Hxll7S5ezAg3Zamzqfu" version="18.0.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1497" dy="316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="500" math="0" shadow="0">
+    <mxGraphModel dx="3555" dy="1438" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="5000" pageHeight="500" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="rfu-AUAui71PsU8ORFb6-0" value="Building Fire" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry y="750" width="90" height="24" as="geometry" />
+          <mxGeometry y="630" width="90" height="24" as="geometry" />
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-26" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-48" target="rfu-AUAui71PsU8ORFb6-25" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="205.04761904761904" y="699.7142857142857" as="sourcePoint" />
+            <mxPoint x="205.04761904761904" y="579.7142857142857" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-40" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-25" target="rfu-AUAui71PsU8ORFb6-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-25" value="continue swinging and something cuts your web with a spear and you land on a roof" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="220" y="630" width="110" height="70" as="geometry" />
+          <mxGeometry x="220" y="510" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-36" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-31" target="rfu-AUAui71PsU8ORFb6-37" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="760" as="targetPoint" />
+            <mxPoint x="380" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-31" value="You save everyone and as you escape you spot someone on a roof" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="220" y="715" width="110" height="50" as="geometry" />
+          <mxGeometry x="220" y="595" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-41" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-33" target="rfu-AUAui71PsU8ORFb6-37" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="759.9999999999999" as="targetPoint" />
+            <mxPoint x="370" y="639.9999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-33" value="you save most people and spot someone on a roof" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="220" y="774" width="90" height="60" as="geometry" />
+          <mxGeometry x="220" y="654" width="90" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-37" value="Kraven fight" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="380" y="735" width="120" height="60" as="geometry" />
+          <mxGeometry x="380" y="615" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-48" value="Do nothing" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="110" y="690" width="100" height="30" as="geometry" />
+          <mxGeometry x="110" y="570" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-49" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-0" target="rfu-AUAui71PsU8ORFb6-48" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="760" as="sourcePoint" />
+            <mxPoint x="100" y="640" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-52" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-50" target="rfu-AUAui71PsU8ORFb6-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-50" value="Go in from window" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="116" y="750" width="84" height="30" as="geometry" />
+          <mxGeometry x="116" y="630" width="84" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-51" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-0" target="rfu-AUAui71PsU8ORFb6-50" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="770" as="sourcePoint" />
+            <mxPoint x="100" y="650" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-56" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-53" target="rfu-AUAui71PsU8ORFb6-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-53" value="Go in from top" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="116" y="805" width="80" height="30" as="geometry" />
+          <mxGeometry x="116" y="685" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-54" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-0" target="rfu-AUAui71PsU8ORFb6-53" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="90" y="840" as="sourcePoint" />
+            <mxPoint x="90" y="720" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-57" value="you get all the inputs right" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="520" y="750" width="90" height="30" as="geometry" />
+          <mxGeometry x="520" y="630" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-58" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-37" target="rfu-AUAui71PsU8ORFb6-57" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="530" y="755" as="sourcePoint" />
+            <mxPoint x="530" y="635" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-62" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-59" target="rfu-AUAui71PsU8ORFb6-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-59" value="you beat Kraven making him leave and you go through the city" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="660" y="710" width="100" height="55" as="geometry" />
+          <mxGeometry x="660" y="590" width="100" height="55" as="geometry" />
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-60" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-57" target="rfu-AUAui71PsU8ORFb6-59" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="599.9999999999998" y="752.4999999999999" as="sourcePoint" />
+            <mxPoint x="599.9999999999998" y="632.4999999999999" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-61" value="Villains on the Loose" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="780" y="735" width="120" height="60" as="geometry" />
+          <mxGeometry x="780" y="615" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-69" value="you have to choose who to go after first between 7 villains" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="920" y="745" width="100" height="20" as="geometry" />
+          <mxGeometry x="920" y="625" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rfu-AUAui71PsU8ORFb6-70" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-61" target="rfu-AUAui71PsU8ORFb6-69" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="920" y="774" as="sourcePoint" />
+            <mxPoint x="920" y="654" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-0" value="you choose a P1 villian to fight 1st, 2nd, and 3rd" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1040" y="742.5" width="110" height="45" as="geometry" />
+          <mxGeometry x="1040" y="622.5" width="110" height="45" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-1" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" target="BueyhhjLLdr9ve4zT7Hy-0" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-69">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1040" y="765" as="sourcePoint" />
+            <mxPoint x="1040" y="645" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-2" value="you get all the inputs right&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1170" y="750" width="96" height="30" as="geometry" />
+          <mxGeometry x="1170" y="630" width="96" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-3" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="BueyhhjLLdr9ve4zT7Hy-2" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-0">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1290" y="800" as="sourcePoint" />
+            <mxPoint x="1290" y="680" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-13" value="you take out all of the destructive villians" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1320" y="745" width="95" height="20" as="geometry" />
+          <mxGeometry x="1320" y="625" width="95" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-14" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="BueyhhjLLdr9ve4zT7Hy-13" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1746" y="765" as="sourcePoint" />
+            <mxPoint x="1746" y="645" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-24" value="Sinister 6 fight" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1640" y="735" width="120" height="60" as="geometry" />
+          <mxGeometry x="1640" y="615" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-25" value="The rest of the villains on the loose along with Kraven and Goblin form the 6" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1450" y="705" width="140" height="60" as="geometry" />
+          <mxGeometry x="1450" y="585" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-26" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" target="BueyhhjLLdr9ve4zT7Hy-25" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-13">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1890" y="760" as="sourcePoint" />
+            <mxPoint x="1890" y="640" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-29" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-25" target="BueyhhjLLdr9ve4zT7Hy-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2050" y="780" as="sourcePoint" />
-            <mxPoint x="2100" y="730" as="targetPoint" />
+            <mxPoint x="2050" y="660" as="sourcePoint" />
+            <mxPoint x="2100" y="610" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-59" value="you get most of the inputs right" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="520" y="834" width="96" height="30" as="geometry" />
+          <mxGeometry x="520" y="790" width="96" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-60" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="BueyhhjLLdr9ve4zT7Hy-59" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rfu-AUAui71PsU8ORFb6-37">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="910" as="sourcePoint" />
+            <mxPoint x="420" y="790" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-61" value="you took some damage but still won and go through the city" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="652.5" y="820" width="115" height="60" as="geometry" />
+          <mxGeometry x="630" y="744" width="115" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-62" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="BueyhhjLLdr9ve4zT7Hy-61" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-59">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="420" y="890" as="sourcePoint" />
+            <mxPoint x="420" y="770" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-73" value="Villains on the Loose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="780" y="805" width="120" height="60" as="geometry" />
+          <mxGeometry x="780" y="714" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-74" value="you have to choose who to go after first between 7 villains" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="920" y="815" width="100" height="20" as="geometry" />
+          <mxGeometry x="920" y="724" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-75" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-73" target="BueyhhjLLdr9ve4zT7Hy-74">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="920" y="844" as="sourcePoint" />
+            <mxPoint x="920" y="753" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-76" value="you choose a P1 villian to fight 1st, 2nd, and 3rd" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1040" y="812.5" width="110" height="45" as="geometry" />
+          <mxGeometry x="1040" y="721.5" width="110" height="45" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-77" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-74" target="BueyhhjLLdr9ve4zT7Hy-76">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1040" y="835" as="sourcePoint" />
+            <mxPoint x="1040" y="744" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-78" value="you get most/all the inputs right&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1166" y="820" width="100" height="30" as="geometry" />
+          <mxGeometry x="1166" y="729" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-79" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-76" target="BueyhhjLLdr9ve4zT7Hy-78">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1290" y="870" as="sourcePoint" />
+            <mxPoint x="1290" y="779" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-80" value="you fight anyone else (Excluding Kraven and Goblin) 1st, 2nd, 3rd, and 4th" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1790" y="740" width="170" height="50" as="geometry" />
+          <mxGeometry x="1790" y="620" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-81" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="BueyhhjLLdr9ve4zT7Hy-80" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-24">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1820" y="774" as="sourcePoint" />
+            <mxPoint x="1820" y="654" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-82" value="you get all the inputs right" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1980" y="750" width="96" height="30" as="geometry" />
+          <mxGeometry x="1980" y="630" width="96" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-83" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="BueyhhjLLdr9ve4zT7Hy-82" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-80">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2040" y="770" as="sourcePoint" />
+            <mxPoint x="2040" y="650" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-85" value="fight Kraven" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2100" y="750" width="100" height="30" as="geometry" />
+          <mxGeometry x="2100" y="630" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-86" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="BueyhhjLLdr9ve4zT7Hy-85" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-82">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2140" y="930" as="sourcePoint" />
+            <mxPoint x="2140" y="810" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-87" value="you get all the inputs right" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2220" y="750" width="96" height="30" as="geometry" />
+          <mxGeometry x="2220" y="630" width="96" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-88" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-85" target="BueyhhjLLdr9ve4zT7Hy-87">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2210" y="930" as="sourcePoint" />
-            <mxPoint x="2260" y="880" as="targetPoint" />
+            <mxPoint x="2210" y="810" as="sourcePoint" />
+            <mxPoint x="2260" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-90" value="fight Goblin" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2330" y="750" width="100" height="30" as="geometry" />
+          <mxGeometry x="2330" y="630" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-91" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="BueyhhjLLdr9ve4zT7Hy-90" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-87">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2320" y="760" as="sourcePoint" />
+            <mxPoint x="2320" y="640" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-92" value="True Ending" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2480" y="745" width="100" height="20" as="geometry" />
+          <mxGeometry x="2480" y="625" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-93" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="BueyhhjLLdr9ve4zT7Hy-92" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-90">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2130" y="930" as="sourcePoint" />
+            <mxPoint x="2130" y="810" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-94" value="you take out all of the destructive villians" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1300" y="815" width="95" height="20" as="geometry" />
+          <mxGeometry x="1300" y="724" width="95" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-95" value="Sinister 6 fight" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1620" y="805" width="120" height="60" as="geometry" />
+          <mxGeometry x="1620" y="714" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-96" value="The rest of the villains on the loose along with Kraven and Goblin form the 6" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1430" y="775" width="140" height="60" as="geometry" />
+          <mxGeometry x="1430" y="684" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-97" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-94">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1870" y="830" as="sourcePoint" />
-            <mxPoint x="1430.3684210526317" y="834.7894736842106" as="targetPoint" />
+            <mxPoint x="1870" y="739" as="sourcePoint" />
+            <mxPoint x="1430.3684210526317" y="743.7894736842106" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-98" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="BueyhhjLLdr9ve4zT7Hy-95">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1570.0000000000005" y="835" as="sourcePoint" />
-            <mxPoint x="2080" y="800" as="targetPoint" />
+            <mxPoint x="1570.0000000000005" y="744" as="sourcePoint" />
+            <mxPoint x="2080" y="709" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-99" value="you fight anyone else (Excluding Kraven and Goblin) 1st, 2nd, 3rd, and 4th" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1770" y="810" width="170" height="50" as="geometry" />
+          <mxGeometry x="1770" y="719" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-100" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-95" target="BueyhhjLLdr9ve4zT7Hy-99">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1800" y="844" as="sourcePoint" />
+            <mxPoint x="1800" y="753" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BueyhhjLLdr9ve4zT7Hy-101" value="you get all the inputs right" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1960" y="820" width="96" height="30" as="geometry" />
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-101" value="you get most/all the inputs right" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1960" y="729" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-102" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-99" target="BueyhhjLLdr9ve4zT7Hy-101">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2020" y="840" as="sourcePoint" />
+            <mxPoint x="2020" y="749" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-103" value="fight Kraven" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2080" y="820" width="100" height="30" as="geometry" />
+          <mxGeometry x="2080" y="729" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-104" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-101" target="BueyhhjLLdr9ve4zT7Hy-103">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2120" y="1000" as="sourcePoint" />
+            <mxPoint x="2120" y="909" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BueyhhjLLdr9ve4zT7Hy-105" value="you get all the inputs right" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2200" y="820" width="96" height="30" as="geometry" />
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-105" value="you get most/all the inputs right" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2200" y="729" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-106" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-103" target="BueyhhjLLdr9ve4zT7Hy-105">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2190" y="1000" as="sourcePoint" />
-            <mxPoint x="2240" y="950" as="targetPoint" />
+            <mxPoint x="2190" y="909" as="sourcePoint" />
+            <mxPoint x="2240" y="859" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-107" value="fight Goblin" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2310" y="820" width="100" height="30" as="geometry" />
+          <mxGeometry x="2310" y="729" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-108" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-105" target="BueyhhjLLdr9ve4zT7Hy-107">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2300" y="830" as="sourcePoint" />
+            <mxPoint x="2300" y="739" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-109" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-78" target="BueyhhjLLdr9ve4zT7Hy-94">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1510" y="970" as="sourcePoint" />
-            <mxPoint x="1560" y="920" as="targetPoint" />
+            <mxPoint x="1510" y="879" as="sourcePoint" />
+            <mxPoint x="1560" y="829" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-110" value="Good Ending" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="2460" y="815" width="100" height="20" as="geometry" />
+          <mxGeometry x="2480" y="760" width="100" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BueyhhjLLdr9ve4zT7Hy-111" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="BueyhhjLLdr9ve4zT7Hy-110" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-107">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="2590" y="1040" as="sourcePoint" />
+            <mxPoint x="2590" y="949" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-112" value="Villains on the Loose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="780" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-113" value="you have to choose who to go after first between 7 villains" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="920" y="830" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-114" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-112" target="BueyhhjLLdr9ve4zT7Hy-113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="859" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-115" value="you choose a P1 villian to fight 1st, 2nd, and 3rd" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1040" y="827.5" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-116" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-113" target="BueyhhjLLdr9ve4zT7Hy-115">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="850" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-117" value="you get most/all the inputs right&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1166" y="835" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-118" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-115" target="BueyhhjLLdr9ve4zT7Hy-117">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="885" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-119" value="you take out all of the destructive villians" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1300" y="830" width="95" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-120" value="Sinister 6 fight" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1620" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-121" value="The rest of the villains on the loose along with Kraven and Goblin form the 6" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=none;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1430" y="790" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-122" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-119">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1870" y="845" as="sourcePoint" />
+            <mxPoint x="1430.3684210526326" y="849.7894736842109" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-123" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="BueyhhjLLdr9ve4zT7Hy-120">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1570" y="850" as="sourcePoint" />
+            <mxPoint x="2080" y="815" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-124" value="you fight anyone else (Excluding Kraven and Goblin) 1st, 2nd, 3rd, and 4th" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1770" y="825" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-125" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-120" target="BueyhhjLLdr9ve4zT7Hy-124">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1800" y="859" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-126" value="you get most/all the inputs right" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1960" y="835" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-127" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-124" target="BueyhhjLLdr9ve4zT7Hy-126">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2020" y="855" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-128" value="fight Kraven" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2080" y="835" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-129" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-126" target="BueyhhjLLdr9ve4zT7Hy-128">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2120" y="1015" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-130" value="you get most/all the inputs right" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2200" y="835" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-131" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-128" target="BueyhhjLLdr9ve4zT7Hy-130">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2190" y="1015" as="sourcePoint" />
+            <mxPoint x="2240" y="965" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-132" value="fight Goblin" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2310" y="835" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-133" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-130" target="BueyhhjLLdr9ve4zT7Hy-132">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2300" y="845" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-134" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-117" target="BueyhhjLLdr9ve4zT7Hy-119">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1510" y="985" as="sourcePoint" />
+            <mxPoint x="1560" y="935" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BueyhhjLLdr9ve4zT7Hy-137" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BueyhhjLLdr9ve4zT7Hy-132" target="BueyhhjLLdr9ve4zT7Hy-110">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2440" y="850" as="sourcePoint" />
+            <mxPoint x="2400" y="860" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
