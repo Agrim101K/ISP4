@@ -1,22 +1,110 @@
-enum State {
-    case intialStart
-    
-    case inTheBuilding
-    
-    case fightKraven
-    
-    case rooftopKraven
-    
-    case handKraven
+import Foundation
 
-    case wallKraven
-    
-    case chaseKraven
+var relationship = 0
+  
+
+   
+enum State {
+
+    // Start point for the game
+    case initialStart
+
+    // Building Fire Sequence
+    case inTheBuilding
+
+    // Spider-Man Fights Kraven
+    case fightKraven
+
+    // Kraven meets Green Goblin
     
     case meetVillain
+
+    // Function to choose order you will fight Rhino, Hydro-Man, and Sandman
+
+    case chooseVillain
+
+    // Function to fight Rhino
+
+    case rhinoFight
+
+    // Function to fight Hydro-Man
+
+    case hydroFight
+
+    // Function to fight Sandman
+
+    case sandFight
+
+    //Function to fight Lizard
+
+    case lizardFight
+
+    //Function to choose if you fight Mr. Negative or Morbius first
+         
+    case morbiusNegative
+
+    // Function for if you choose to fight Morbius first
+
+    case morbiusFirst
+
+    // Function for if you choose to fight Mr. Negative second
+
+    case negativeSecond
+
+    // Function for if you choose to fight Mr.Negative first
+
+    case negativeFirst
+
+    // Function for if you chose to fight Morbius second
+
+    case morbiusSecond
+
+    // Choice between Venom, Goblin, and Kraven if Morbius is picked first
+
+    case VGK
+
+    // Choice between Venom, Goblin, and Kraven if Negative is picked first
+
+    case VGK2
+
+    // Leads to bad ending if Morbius is picked first
+
+    case venomFirst
+
+    case kravenSecond
+
+    //Leads to good ending if Morbius is picked first
+
+    case kravenFirst
+
+    case venomSecond
+
+    // Leads to true ending if Negative is picked first
+
+    case venomFirst2
+
+    case kravenSecond2
+
+    //Leads to Carnage ending if Negative is picked first
+
+    case kravenFirst2
+
+    case venomSecond2
+
+    case goodEnding
+
+    case badEnding
+
+    case trueEnding
+
+    case carnage
     
     case death
+
+    
 }
+
+var morality = 0 
 
 
 func getKeyboardInput(prompt:String, allowedCharacters:Set<Character>) -> Character {
@@ -30,13 +118,12 @@ func getKeyboardInput(prompt:String, allowedCharacters:Set<Character>) -> Charac
         if !allowedCharacters.contains(key) {
             print(" Enter in one of the \(allowedCharacters).\n")
         }
-    } while !allowedCharacters.contains(key)
+    } while  !allowedCharacters.contains(key)
     return key
 }
 
 func startPath() -> State {
-    print("\n")
-    print("Welcome to The Spider-Man! This is a game where you get to control the story that our friendly neighborhood superhero will follow. Without further to do, get ready to start your unknown adventure into New York City!\n")
+    print( "Welcome to The Spider-Man! This is a game where you get to control the story that our friendly neighborhood superhero will follow. Without further to do, get ready to start your unknown adventure into New York City!\n")
     var key : Character
     repeat {
         key = getKeyboardInput(prompt: "Press s to begin the game.\n", allowedCharacters:["s"])
@@ -55,6 +142,8 @@ func startPath() -> State {
 func handleBuildingFire() -> State {
     print("You are swinging through the city and see a building on fire.\n")
     var key : Character
+    
+    
     repeat {
         key = getKeyboardInput(prompt:"Press t to enter in the building through the top or press b to enter the building through the bottom.\n", allowedCharacters:["t", "b"])
         switch key {
@@ -74,7 +163,7 @@ func handleBuildingFire() -> State {
     return .death
 }
 
-func meetKraven() -> State {
+func fightKraven() -> State {
     print("As you drop the civilians to the ground, you see a mysterious person running across the rooftops.\n")
     var key : Character
     repeat {
@@ -82,7 +171,7 @@ func meetKraven() -> State {
         switch key {
         case "w" :
             print("As you patrol the city while swinging, somebody shoots a tranquilizer at you, and you fall onto a rooftop of a building\n")
-            return .rooftopKraven
+            return .death
         case "c":
             print("You start chasing the person across the rooftop.\n")
 
@@ -90,78 +179,379 @@ func meetKraven() -> State {
             print("As you swing throughout the city, somebody shoots a tranquilizer at you, and you fall onto a rooftop.\n")
         }
     } while key != "c"
-    return .rooftopKraven
+      return .death
+    
     
 }
 
-func rooftopKraven() -> State {
-    print("Kraven: You have always been my greatest prey Spider-Man. Now, it is time to finish off my last hunt. \n")
-    print("Spider-Man struggles to get up.\n")
-    print("Spider-Man: This will be your last hunt.")
-    var key : Character
-    repeat {
-        key = getKeyboardInput(prompt: "Press w to web Kraven up or p to punch Kraven. Your choices in this fight will result in your victory or death.\n", allowedCharacters:["w", "p"])
-        switch key {
-        case "w":
-            print("You try to web Kraven up, but he takes your web shot and pulls you towards him. Kraven grabs you by the throat.\n")
-        case "p":
-            print("You attempt to punch Kraven, but he grabs your hand and throws you against a wall.\n")
-            return .wallKraven
-
-        default:
-            print("You didn't react in time. Kraven is able to overpower Spider-Man easily and kill him.\n")
-            return .death
-        }
-        
-        } while key == "w"; 
-        return .handKraven
-    }
-
-
-func wallKraven() -> State {
-    return.death
-}
-
-func handKraven() -> State {
-    return.death
-}
-
-func chaseKraven() -> State {
-    return.death
-}
 
 func meetVillain() -> State {
+    print("You are about to meet the villain\n!")
+    var key: Character
+    repeat {
+        key = getKeyboardInput(prompt:"Press something.\n", allowedCharacters:["s", "w"])
+        switch key {
+        case "s":
+            print("Something.\n")
+            return.death
+
+        case "w":
+            print("Something.\n")
+            return.death
+
+        default:
+            print("Something.\n")
+        }
+    } while key == "s"
+    return.death
+}
+
+
+func chooseVillain() -> State {
+    print("You are about to meet the villain\n!")
+    var key:Character
+    repeat {
+        key = getKeyboardInput(prompt:"Press something.\n", allowedCharacters:["s", "w"])
+        switch key {
+        case "s":
+            print("Something.\n")
+            return.death
+
+        case "w":
+            print("Something.\n")
+            return.death
+
+        default:
+            print("Something.\n")
+
+        }
+    }while key == "s"
+    return.death
+}
+
+func rhino() -> State{
+    print("You are about to meet the villain\n!")
+    var key: Character
+    repeat {
+        key = getKeyboardInput(prompt:"Press something.\n", allowedCharacters:["s", "w"])
+        switch key {
+        case "s":
+            print("Something.\n")
+            return.death
+        case "w":
+            print("Something.\n")
+            return.death
+
+        default:
+            print("Something.\n")
+
+        }
+    }while key == "s"
+    return.death
+}
+
+func hydro() -> State {
+    print("You are about to meet the villain\n!")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt: "Press something.\n", allowedCharacters:["s", "w"])
+        switch key {
+        case "s":
+            print("Something.\n")
+            return.death
+        case "w":
+            print("Something.\n")
+            return.death
+
+        default:
+            print("Something.\n")
+
+        }
+    }while key == "s"
+    return.death
+}
+
+func sand() -> State {
+    print("You are about to meet the villain\n!")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt: "Press something.\n", allowedCharacters:["s", "w"])
+        switch key {
+        case "s":
+            print("Something.\n")
+            return.death
+
+        case "w":
+            print("Something.\n")
+            return.death
+
+        default:
+            print("Something.\n")
+        }
+    }while key == "s"
+    return.death
+
+}
+
+func lizard() -> State {
+    print ("You are about to meet the villain\n!")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt:"Press something\n", allowedCharacters:["s", "w"])
+        switch key {
+        case "s":
+        print("Something.\n")
+        case "w":
+            print("Something.\n")
+        default:
+            print("Something.\n")
+        }
+    }while key == "s"
+    return.death
+}
+
+func morbiusNegative() -> State {
+    print ("You are about to meet the villain\n")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt:"Press something\n", allowedCharacters:["s", "w"])
+        switch key {
+        case"s":
+            print("Something.\n")
+        case "w":
+            print("Something.\n")
+        default:
+            print("Something.\n")
+        }
+    }while key == "s"
+    return.death
+
+}
+
+func morbiusFirst() -> State {
+    print ("You are about to meet the villain\n")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt:"Press something\n", allowedCharacters:["s", "w"])
+        switch key {
+        case "s":
+            print("Something.\n")
+
+        case "w":
+            print("Something.\n")
+
+        default:
+            print("Something.\n")
+        }
+    }while key == "s"
+    return.death
+}
+
+func negativeSecond() -> State {
+    print ("You are about to meet the villain\n")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt:"Press something\n", allowedCharacters:["s", "w"])
+        switch key {
+        case "s":
+            print("Something.\n")
+
+        case "w":
+            print("Something.\n")
+
+        default:
+            print("Something.\n")
+
+        }
+    }while key == "s"
+    return.death
+
+}
+
+func VGK() -> State {
+    print ("You are about to meet the villain\n")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt:"Press something\n", allowedCharacters:["s", "w"])
+        switch key {
+        case "s":
+            print("Something.\n")
+
+        case "w":
+            print("Something.\n")
+
+        default:
+            print("Something.\n")
+        }
+    }while key == "s"
+    return.death
+}
+
+func venomFirst() -> State {
+    print("You are about to meet the villain\n")
+    var key : Character
+    repeat {
+        key = getKeyboardInput(prompt:"Press something\n", allowedCharacters:["s", "w"])
+        switch key {
+        case "s":
+            print("Something.\n")
+
+        case "w":
+            print("Something.\n")
+
+        default:
+            print("Something.\n")
+
+        }
+    }while key == "s"
+    return.death
+
+}
+
+func kravenSecond() -> State {
+    return.death
+}
+
+func kravenFirst() -> State {
+    return.death
+}
+
+func venomSecond() -> State {
+    return.death
+}
+
+func negativeFirst() -> State {
+    return.death
+}
+
+func morbiusSecond() -> State {
+    return.death
+}
+
+func VGK2() -> State {
+    return.death
+}
+
+func venomFirst2() -> State {
+    return.death
+}
+
+func kravenSecond2() -> State {
+    return.death
+}
+
+func kravenFirst2() -> State {
+    return.death
+}
+
+func venomSecond2() -> State {
+    return.death
+}
+
+func badEnding() -> State {
+    return.death
+}
+
+func goodEnding() -> State {
+    return.death
+}
+
+func trueEnding() -> State {
+    return.death
+}
+
+func carnage() -> State {
     return.death
 }
 
 
 func main() {
-    var state = State.intialStart
+    var state = State.initialStart
     repeat {
         switch state {
-        case .intialStart:
+        case .initialStart:
             state = startPath()
             
         case .inTheBuilding:
             state = handleBuildingFire()
-            
-        case .fightKraven:
-            state = meetKraven()
-            
-        case.rooftopKraven:
-            state = rooftopKraven()
-            
-        case.chaseKraven:
-            state = chaseKraven()
 
-        case.wallKraven:
-            state = wallKraven()
+        case .fightKraven:
+            state = fightKraven()
             
-        case.handKraven:
-            state = handKraven()
-         
-        case .meetVillain:
+        case.meetVillain:
             state = meetVillain()
+            
+        case.chooseVillain:
+            state = chooseVillain()
+
+        case.hydroFight:
+            state = hydro()
+
+        case.sandFight:
+            state = sand()
+
+        case.rhinoFight:
+            state = rhino()
+
+        case.lizardFight:
+            state = lizard()
+
+        case.morbiusNegative:
+            state = morbiusNegative()
+
+        case.morbiusFirst:
+            state = morbiusFirst()
+
+        case.negativeSecond:
+            state = negativeSecond()
+
+        case.negativeFirst:
+            state = negativeFirst()
+
+        case.morbiusSecond:
+            state = morbiusSecond()
+
+        case.VGK:
+            state = VGK()
+
+        case.venomFirst:
+            state = venomFirst()
+
+        case.kravenSecond:
+            state = kravenSecond()
+
+        case.kravenFirst:
+            state = kravenFirst()
+
+        case.venomSecond:
+            state = venomSecond()
+
+        case.VGK2:
+            state = VGK2()
+
+        case.venomFirst2:
+            state = venomFirst2()
+
+        case.kravenSecond2:
+            state = kravenSecond2()
+
+        case.kravenFirst2:
+            state = kravenFirst2()
+
+        case.venomSecond2:
+            state = venomSecond2()
+            
+        case.goodEnding:
+            state = goodEnding()
+
+        case.badEnding:
+            state = badEnding()
+
+        case.trueEnding:
+            state = trueEnding()
+         
+        case .carnage:
+            state = carnage()
             
         case .death:
             do {}
@@ -172,3 +562,4 @@ func main() {
 
 main()
         
+
