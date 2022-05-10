@@ -183,7 +183,7 @@ func fightKraven() -> State {
             print("Kraven: You are my last hunt Spider-Man. Give me a worthy fight.\n")
             print("Spider-Man: Kraven? Why are you here?\n")
             print("Kraven: To kill you!\n")
-            key = getKeyboardInput(prompt:"Kraven throws a knife at you. Press y to throw it back at him or press x to dodge it.", allowedCharacters:["y", "x"])
+            key = getKeyboardInput(prompt:"Kraven throws a knife at you. Press y to throw it back at him or press x to dodge it.\n", allowedCharacters:["y", "x"])
             switch key {
             case "y":
                 print("You threw the knife back at Kraven. Kraven dodged the knife, but it gave you the opportunity to catch him by surprise and knock him out.\n")
@@ -203,9 +203,10 @@ func fightKraven() -> State {
             return.meetVillain
 
         default:
-            print("As you swing throughout the city, somebody shoots a tranquilizer at you, and you fall onto a rooftop.\n")
+            print("As you patrol the city while swinging, somebody shoots a tranquilizer and Spider-Man falls onto the ground.\n")
             print("Kraven: You are my last hunt Spider-Man. Give me a worthy fight.\n")
             print("Spider-Man: Kraven? Why are you here?\n")
+            print("Kraven: To kill you!\n")
 
             key = getKeyboardInput(prompt: "Kraven throws a knife at you. Press d to dodge it or press t to throw it back at him", allowedCharacters:["d", "t"])
             switch key {
@@ -288,7 +289,7 @@ func rhino() -> State{
     print("Spider-Man jumps on top of Rhino and tries to smash him into walls and vehicles.\n")
     var key: Character
     repeat {
-        key = getKeyboardInput(prompt:"Critical Moment: Press t to throw an object at Rhino or press w to web him in the eyes.\n", allowedCharacters:["t", "w"])
+        key = getKeyboardInput(prompt:"Press t to throw an object at Rhino or press w to web him in the eyes.\n", allowedCharacters:["t", "w"])
         switch key {
         case "w":
             print("Rhino loses his footing and slips onto the ground, which knocks him out. You have defeated Rhino and prevented unnecessary destruction!\n")
@@ -326,7 +327,12 @@ func rhino() -> State{
 }
 
 func hydro() -> State {
+    print("Hydro-Man is feeding off the energy from the shore of the water!\n")
     print("Hydro-Man: Bugs are afraid of water Spider-Man!\n")
+    print("Spider-Man: I'm not sure about that.\n")
+    print("Hydro-Man blasts a wave of water at Spider-Man.\n")
+    print("Spider-Man dodges the blast and lands onto the side of a building.\n")
+    print("I could use the lights nearby to evaporate him or throw electrictal wires.\n")
     var key : Character
     repeat {
         key = getKeyboardInput(prompt: "Throw electrical wires at Hydro-Man by pressing w or attempt to evaporate him with lights by pressing l.\n", allowedCharacters:["l", "w"])
@@ -410,6 +416,10 @@ func sand() -> State {
 
 func lizard() -> State {
     print ("Lizard is dragging people into the sewers!\n")
+    print("Spider-Man: Stop right there!\n")
+    print("Lizard jumps towards Spider-Man, but Spider-Man dodges the attack and manages to kick Lizard.\n")
+    print("Lizard decides to head back to the sewer.\n")
+    print("Spider-Man: I can go into the sewers or I can web him and fight him here.\n")
     var key : Character
     repeat {
         key = getKeyboardInput(prompt:"Attract Lizard to the daylight by pressing d or go into the sewers by pressing s.\n", allowedCharacters:["s", "d"])
@@ -451,6 +461,8 @@ func morbiusNegative() -> State {
 
 func morbiusFirst() -> State {
     print ("Morbius is biting people across the city and turing them into vampires!\n")
+    print("Spider-Man webs Morbius and kicks him.\n")
+    print("Spider-Man looks around him and sees a light while Morbius is rapidly approaching him.\n")
     var key : Character
     repeat {
         key = getKeyboardInput(prompt:"Press l to shine a light on morbius or press w to web him up.\n", allowedCharacters:["l", "w"])
@@ -473,6 +485,7 @@ func morbiusFirst() -> State {
 
 func negativeSecond() -> State {
     print ("Mr. Negative is corrupting people across the city with his negative energy.\n")
+    print("Spider-Man looks towards Mr. Negative as he ponders his next move.\n")
     var key : Character
     repeat {
         key = getKeyboardInput(prompt:"Attract Mr. Negative to the water and kick him by pressing k or web him up by pressing f\n", allowedCharacters:["f", "w"])
@@ -765,6 +778,17 @@ func venomSecond2() -> State {
 func badEnding() -> State {
     print("Green Goblin: Look here Spider. It is me. In the flesh.\n")
     print("Spider-Man: Goblin, how are you alive again?\n")
+    print("Green Goblin hops onto his glider and flies towards Spider-Man.\n")
+    print("Green Goblin grabs Spider-Man and smashes and throws him into multiple buildings.\n")
+    print("Green Goblin grabs a person and holds him over the ledge of a building.\n")
+    print("Green Goblin drops the person while he restrains Spider-Man from saving the person.\n")
+    print("Spider-Man snaps and pins Goblin to the ground and starts punching him repeatedly.\n")
+    print("Spider-Man stops punching and sees that his hands are bloody.\n")
+    print("Spider-Man looks down to see a dead Green Goblin.\n")
+    print("Spider-Man: What have I done?\n")
+    print("You broke your moral code by killing Green Goblin. You also caused a lot of destruction.\n")
+    print("You achieved the bad ending!\n")
+    
     morality = 50
     var key : Character
     repeat {
@@ -784,6 +808,13 @@ func badEnding() -> State {
 func goodEnding() -> State {
     print("Green Goblin: Look here Spider. It is me. In the flesh.\n")
     print("Spider-Man: Goblin, how are you alive again?\n")
+    print("Green Goblin hops onto his glider and flies towards Spider-Man\n")
+    print("Green Goblin grabs Spider-Man and smashes and throws him into multiple buildings.\n")
+    print("Spider-Man web shoots Goblin's glider, which makes Goblin fly off his glider onto a rooftop.\n")
+    print("Spider-Man grabs Goblin and knocks him out.\n")
+    print("Spider-Man: Well, that was easy.\n")
+    print("While you did defeat the villains, you did cause destruction throughout the city.\n")
+    print("You achieved the good ending!\n")
     morality = 75
     var key : Character
     repeat {
@@ -802,6 +833,9 @@ func goodEnding() -> State {
 func trueEnding() -> State {
     print("Green Goblin: Look here Spider. It is me. In the flesh.\n")
     print("Spider-Man: Goblin, how are you alive again?\n")
+    print("Green Goblin: That doesn't matter anymore. This is between me and you.\n")
+    print("Spider-Man grabs Green Goblin and knocks him out with a punch.\n")
+    print("You saved the day without causing that much destruction. You achieved the true ending!\n")
     morality = 100
     var key : Character
     repeat {
@@ -819,6 +853,12 @@ func trueEnding() -> State {
 
 func carnage() -> State {
     print("Green Goblin escapes to Oscorp where he unleashes a deadly villain.\n")
+    print("Spider-Man wakes up in the morning to see a city covered in red goo.\n")
+    print("Spider-Man: What happened here?\n")
+    print("Suddenly, Carnage jumps into Peter's window and attacks Spider-Man.\n")
+    print("Spider-Man jumps out of the building and starts swinging to his lab.\n")
+    print("Peter's Lab.....\n")
+    print("There might be only one way to defeat this new red symbiote.\n")
     morality = -25
     var key : Character
     repeat {
